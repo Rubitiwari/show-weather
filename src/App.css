@@ -41,6 +41,10 @@
   width: 48%;
   height: 100%;
 }
+.weeklyWeatherContainer {
+  border: 1px solid beige;
+  margin: 2rem;
+}
 
 .weatherDetailBox {
   display: flex;
@@ -137,6 +141,43 @@ ul.cityList {
   display: flex;
   width: 100%;
   justify-content: flex-start;
+}
+.rw-desc{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.rw-range {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.rw-box-left {
+  border: 1px solid blanchedalmond;
+  padding: 1rem;
+}
+
+.rw-box-left h2{
+  display: flex;
+}
+.rw-today {
+  display: flex;
+  width: 100%;
+}
+
+.rw-day {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid blanchedalmond;
+}
+.rw-date {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
 }
 .rw-desc{
   display: flex;
