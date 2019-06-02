@@ -23,7 +23,7 @@ export class WeatherReport extends React.Component {
           <div className="weatherDetailBox">
           </div>
         </div>
-        <div className="weatherContainer">
+        <div className="weatherContainer weeklyWeatherContainer">
           <ReactWeather
             forecast="5days"
             apikey="1d7c3fe0a7be475e9e3110440190106"
